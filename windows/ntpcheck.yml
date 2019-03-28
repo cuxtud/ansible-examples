@@ -8,7 +8,7 @@
         description: Run a PowerShell script
         actions:
           - path: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-            arguments: -ExecutionPolicy Unrestricted -NonInteractive -File c:\cmp\main\src\scripts\powershell\NtpCheck.ps1
+            arguments: -ExecutionPolicy Unrestricted -NonInteractive -File c:\temp\NtpCheck.ps1
         triggers:
         - type: registration
           repetition:
